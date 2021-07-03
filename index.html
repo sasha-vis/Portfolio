@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .html, body {
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            display: flex;
+            width: calc(100% - 30px);
+            height: calc(100% - 30px);
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .portfolio-wrapper, .projects-list {
+            display: flex;
+            height: 100%;
+        }
+
+        .portfolio-wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            color: gray;
+        }
+
+        .projects-block {
+            width: 60%;
+            height: 100%;
+        }
+
+        .projects-list {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        .project {
+            width: 25%;
+            height: 200px;
+            border: 1px solid gray;
+            text-align: center;
+            box-shadow: 0px 0px 20px 10px #ccc;
+        }
+
+        h3 {
+            font-variant: small-caps;
+        }
+
+        .project-description {
+            font-variant: small-caps;
+        }
+
+        .react-bgc {
+            background-color: dodgerblue;
+        }
+
+        .react-bgc:hover {
+            background-color: royalblue;
+        }
+
+        .js-bgc {
+            background-color: gold;
+        }
+
+        .js-bgc:hover {
+            background-color: goldenrod;
+        }
+
+        .html-bgc {
+            background-color: crimson;
+        }
+
+        .html-bgc:hover {
+            background-color: maroon;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="portfolio-wrapper">
+        <h1 class="title">Collection of my main projects</h1>
+        <div class="projects-block">
+            <ul class="projects-list">
+                <li class="project react-bgc">
+                    <a href="https://sasha-vis.github.io/PizzaAppReactJS/" target="_blank">
+                        <h3 class="project-title">Pizza App</h3>
+                        <div class="project-description">Application for ordering food<br/>( React )</div>
+                    </a>
+                </li>
+                <li class="project react-bgc">
+                    <a href="https://sasha-vis.github.io/ShopApiReactJS/" target="_blank">
+                        <h3 class="project-title">Store App</h3>
+                        <div class="project-description">Application for ordering different things<br/>( React )</div>
+                    </a>
+                </li>
+                <li class="project react-bgc">
+                    <a href="https://sasha-vis.github.io/ToDoList/" target="_blank">
+                        <h3 class="project-title">To do list</h3>
+                        <div class="project-description">Simple to do list<br/>( React )</div>
+                    </a>
+                </li>
+                <li class="project js-bgc">
+                    <a href="https://sasha-vis.github.io/ShopApiJS/" target="_blank">
+                        <h3 class="project-title">Store App</h3>
+                        <div class="project-description">Application for ordering different things<br/>( Javascript )</div>
+                    </a>
+                </li>
+                <li class="project js-bgc">
+                    <a href="https://sasha-vis.github.io/ContactList/" target="_blank">
+                        <h3 class="project-title">Contact list</h3>
+                        <div class="project-description">Simple contact list<br/>( Javascript )</div>
+                    </a>
+                </li>
+                <li class="project js-bgc">
+                    <a href="https://sasha-vis.github.io/Calculator/" target="_blank">
+                        <h3 class="project-title">Calculator</h3>
+                        <div class="project-description">Calculator<br/>( Javascript )</div>
+                    </a>
+                </li>
+                <li class="project js-bgc">
+                    <a href="https://sasha-vis.github.io/FinanceApp/" target="_blank">
+                        <h3 class="project-title">Finance App</h3>
+                        <div class="project-description">Application for adding a bank card, adding and debiting money from it<br/>( Javascript )</div>
+                    </a>
+                </li>
+                <li class="project js-bgc">
+                    <a href="https://sasha-vis.github.io/Slider/" target="_blank">
+                        <h3 class="project-title">Slider</h3>
+                        <div class="project-description">Simple slider<br/>( Javascript )</div>
+                    </a>
+                </li>
+                <li class="project html-bgc">
+                    <a href="https://sasha-vis.github.io/WebDevPage/" target="_blank">
+                        <h3 class="project-title">WebDevPage</h3>
+                        <div class="project-description">One page site<br/>( HTML, CSS )</div>
+                    </a>
+                </li>
+                <li class="project html-bgc">
+                    <a href="https://sasha-vis.github.io/DreamMakerPage/" target="_blank">
+                        <h3 class="project-title">DreamMakerPage</h3>
+                        <div class="project-description">One page site<br/>( HTML, CSS )</div>
+                    </a>
+                </li>
+                <li class="project html-bgc">
+                    <a href="https://sasha-vis.github.io/ReenPage/" target="_blank">
+                        <h3 class="project-title">ReenPage</h3>
+                        <div class="project-description">One page site<br/>( HTML, CSS )</div>
+                    </a>
+                </li>
+                <li class="project html-bgc">
+                    <a href="https://sasha-vis.github.io/BurgerPage/" target="_blank">
+                        <h3 class="project-title">BurgerPage</h3>
+                        <div class="project-description">One page site<br/>( HTML, CSS )</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
